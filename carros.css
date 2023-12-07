@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #8b0000;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 12rem;
+    height: 6rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px; 
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s ease; 
+}
+
+nav a:hover {
+    background-color: #ddd; 
+    color: #000; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.cars {
+    width: 40rem;
+}
+
+.carros_fotos{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.p {
+    margin-top: 1.5rem;
+    align-items: normal;
+}
+
+.ficha{
+    font-size: 1.2rem;
+}
+
+.negrito{
+    font-weight: 900;
+    font-size: 1.3rem;
+}
